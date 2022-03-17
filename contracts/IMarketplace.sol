@@ -24,7 +24,9 @@ interface IMarketplace
         uint256 itemID,
         address tokenToBuy,
         uint256 price,
-        uint256 amount) external;
+        uint256 amount
+    ) external;
+
 
     /// @notice - list item for native blockchain currency
     /// @param item - nft address that will be listed
